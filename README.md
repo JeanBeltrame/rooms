@@ -17,8 +17,8 @@ Com Docker e Docker Compose instalados, siga os passos abaixo:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/JeanBeltrame/rooms.git
+cd rooms
 ```
 
 ### 2. Suba os containers com Docker Compose
