@@ -40,8 +40,6 @@ A aplicação estará disponível em:
 http://localhost:8080
 ```
 
-> Verifique se a porta `8080` está correta com base na sua configuração.
-
 ## 🛑 Parar os containers
 
 Para parar e remover os containers:
