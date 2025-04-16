@@ -1,0 +1,10 @@
+services:
+  scheduling-rooms:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        JAR_FILE: scheduling-rooms.jar  # Substitua pelo nome real do seu JAR
+    container_name: scheduling-rooms-app
+    ports:
+      - "8080:8080"
