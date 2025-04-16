@@ -56,19 +56,6 @@ docker compose down
   [`jeanbeltrame/scheduling-rooms`](https://hub.docker.com/r/jeanbeltrame/scheduling-rooms)
 - Nenhuma variável de ambiente ou configuração adicional é necessária.
 - A imagem é gerada automaticamente durante o build do Maven e enviada para o Docker Hub via `docker-maven-plugin`.
-
-## 📦 Build e push da imagem (opcional)
-
-Se desejar construir e enviar sua própria imagem para o Docker Hub:
-
-```bash
-mvn clean package
-```
-
-Isso irá:
-
-- Gerar o JAR da aplicação
-- Construir a imagem Docker
 - Fazer push automático para o Docker Hub
 
 > Certifique-se de estar autenticado com `docker login` antes de executar esse comando.
