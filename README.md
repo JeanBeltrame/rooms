@@ -1,4 +1,4 @@
-```markdown
+
 # Scheduling Rooms
 
 Aplicação Java para gerenciamento de agendamentos de salas, empacotada como imagem Docker e publicada no Docker Hub.
